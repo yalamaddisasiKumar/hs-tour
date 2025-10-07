@@ -14,6 +14,7 @@ Foundation patterns that every Haskell developer should know:
 - [**Functor**](basic/functor) - Mapping over computational contexts
 - [**Applicative**](basic/applicative) - Applying functions in contexts
 - [**Monad**](basic/monad) - Sequencing computations with context
+- [**Monoid**](basic/monoid) - Combining values associatively with identity
 - [**Arrow**](basic/arrow) - Composing computations as arrows
 - [**Monad Transformer**](basic/monad-transformer) - Stacking monadic effects
 - [**Typeclasses**](basic/typeclasses) - Ad-hoc polymorphism and abstraction
