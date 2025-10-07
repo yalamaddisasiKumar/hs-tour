@@ -1,0 +1,34 @@
+title: Haskell Design Patterns Guide
+description: A comprehensive guide to Haskell design patterns - from basic to advanced
+theme: jekyll-theme-cayman
+baseurl: "/hs-tour"
+url: "https://yalamaddisasiKumar.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Navigation
+collections:
+  basic:
+    output: true
+    permalink: /basic/:name/
+  advanced:
+    output: true
+    permalink: /advanced/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "basic"
+    values:
+      layout: "pattern"
+      category: "Basic"
+  - scope:
+      path: ""
+      type: "advanced"
+    values:
+      layout: "pattern"
+      category: "Advanced"
